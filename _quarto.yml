@@ -22,11 +22,13 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/ezgisozdemir
+      - icon: envelope
+        href: mailto:sozdemirezgi@gmail.com
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/ezgisozdemir1006/
+      - icon: instagram
+        href: https://www.instagram.com/sozdemirezgi/
 
   sidebar:
     - title: "Assignments"

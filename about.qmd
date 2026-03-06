@@ -3,28 +3,34 @@ title: "About Me"
 sidebar: false 
 ---
 
+\[download my CV\] (EZGI_SOZDEMIR_CV.pdf)
+
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Uber, Campus Representative, Oct 2025 - Dec 2025
 
-2.  Firm yyy, position yyy, year yyy
+2.  Downeast Ice Cream Factory, Server, Jun 2024 - Sep 2024
 
-## Internships
+3.  Faber-Castell, Campus Representative, May 2024 - Jun 2024
 
-1.  Firm aaa, position xx, year xxx
+## Internship
 
-2.  Firm bbb, position yyy, year yyy
+1.  Kula Yağ ve Emek Yem, Production Intern, Aug 2025
 
-# Projects
+## Volunteering
+
+1. ACM Hacettepe Student Chapter, Corporate Relations Coordinator, Dec 2022 -  Jun 2024
+
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, Excel
 
 # Hobbies
+Skipping, Running, Watching stand-up comedy shows 

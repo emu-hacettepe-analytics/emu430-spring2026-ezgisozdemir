@@ -11,21 +11,28 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing."
+    "text": "[download my CV] (EZGI_SOZDEMIR_CV.pdf)"
   },
   {
     "objectID": "about.html#employements",
     "href": "about.html#employements",
     "title": "About Me",
     "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
+    "text": "Employements\n\nUber, Campus Representative, Oct 2025 - Dec 2025\nDowneast Ice Cream Factory, Server, Jun 2024 - Sep 2024\nFaber-Castell, Campus Representative, May 2024 - Jun 2024"
   },
   {
-    "objectID": "about.html#internships",
-    "href": "about.html#internships",
+    "objectID": "about.html#internship",
+    "href": "about.html#internship",
     "title": "About Me",
-    "section": "Internships",
-    "text": "Internships\n\nFirm aaa, position xx, year xxx\nFirm bbb, position yyy, year yyy"
+    "section": "Internship",
+    "text": "Internship\n\nKula Yağ ve Emek Yem, Production Intern, Aug 2025"
+  },
+  {
+    "objectID": "about.html#volunteering",
+    "href": "about.html#volunteering",
+    "title": "About Me",
+    "section": "Volunteering",
+    "text": "Volunteering\n\nACM Hacettepe Student Chapter, Corporate Relations Coordinator, Dec 2022 - Jun 2024"
   },
   {
     "objectID": "assignments/assignment-1.html",

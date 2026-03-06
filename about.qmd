@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-[Download my CV](EZGI_SOZDEMIR_CV.pdf)
+[Download my CV](EZGI_SOZDEMIR_CV_.pdf)
 
 # Education
 

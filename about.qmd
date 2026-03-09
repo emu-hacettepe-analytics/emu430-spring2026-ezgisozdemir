@@ -25,12 +25,12 @@ sidebar: false
 
 ## Volunteering
 
-1. ACM Hacettepe Student Chapter, Corporate Relations Coordinator, Dec 2022 -  Jun 2024
-
+1.  ACM Hacettepe Student Chapter, Corporate Relations Coordinator, Dec 2022 - Jun 2024
 
 # Competencies
 
 R, Quarto, Git, Python, Excel
 
 # Hobbies
-Skipping, Running, Watching stand-up comedy shows 
+
+Skipping, Running, Watching stand-up comedy shows

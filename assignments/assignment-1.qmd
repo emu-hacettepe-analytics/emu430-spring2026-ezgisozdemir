@@ -4,10 +4,6 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
 My first assignment has two parts.
 
 ## (a) 
@@ -46,4 +42,98 @@ D\) Comparing scenarios and running what-if analyses
 
 C\) Do not look at conflicting KPIs
 
-Why? Because sometimes improving one KPI can cause affect another KPI negatively, if we fix something, we also ruin another one it happens. So in that situation it is important to examine the conflicts. By analyzing these KPIs, an analysts can understand the trade offs in the system better and evaluate whether the proposed solution actually improves the overall performance.
+Why? Because sometimes improving one KPI can cause affect another KPI negatively, if we fix something, we also ruin another one, it happens. So in that situation it is important to examine the conflicts. By analyzing these KPIs, an analysts can understand the trade offs in the system better and evaluate whether the proposed solution actually improves the overall performance.
+
+## (c) data analysis part
+
+```{r}
+library(dslabs)
+
+data(polls_us_election_2016)
+
+my_first <- "Ezgi"
+
+my_birth_year <- 2002
+
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+
+k
+
+if(k %% 2 == 0) {
+  head(polls_us_election_2016 , k)
+} else {
+  tail(polls_us_election_2016 , k)
+}
+
+sum(is.na(polls_us_election_2016))
+
+# NA values per column
+
+sum(is.na(polls_us_election_2016$state))
+sum(is.na(polls_us_election_2016$startdate))
+sum(is.na(polls_us_election_2016$enddate))
+sum(is.na(polls_us_election_2016$pollster))
+sum(is.na(polls_us_election_2016$grade))
+sum(is.na(polls_us_election_2016$samplesize))
+sum(is.na(polls_us_election_2016$population))
+sum(is.na(polls_us_election_2016$rawpoll_clinton))
+sum(is.na(polls_us_election_2016$rawpoll_trump))
+sum(is.na(polls_us_election_2016$rawpoll_johnson))
+sum(is.na(polls_us_election_2016$rawpoll_mcmullin))
+sum(is.na(polls_us_election_2016$adjpoll_clinton))
+sum(is.na(polls_us_election_2016$adjpoll_trump))
+sum(is.na(polls_us_election_2016$adjpoll_johnson))
+sum(is.na(polls_us_election_2016$adjpoll_mcmullin))
+
+na_counts <- c(
+  state=sum(is.na(polls_us_election_2016$state)),
+  startdate=sum(is.na(polls_us_election_2016$startdate)),
+  enddate=sum(is.na(polls_us_election_2016$enddate)),
+  pollster=sum(is.na(polls_us_election_2016$pollster)),
+  grade=sum(is.na(polls_us_election_2016$grade)),
+  samplesize=sum(is.na(polls_us_election_2016$samplesize)),
+  population=sum(is.na(polls_us_election_2016$population)),
+  rawpoll_clinton=sum(is.na(polls_us_election_2016$rawpoll_clinton)),
+  rawpoll_trump=sum(is.na(polls_us_election_2016$rawpoll_trump)),
+  rawpoll_johnson=sum(is.na(polls_us_election_2016$rawpoll_johnson)),
+  rawpoll_mcmullin=sum(is.na(polls_us_election_2016$rawpoll_mcmullin)),
+  adjpoll_clinton=sum(is.na(polls_us_election_2016$adjpoll_clinton)),
+  adjpoll_trump=sum(is.na(polls_us_election_2016$adjpoll_trump)),
+  adjpoll_johnson=sum(is.na(polls_us_election_2016$adjpoll_johnson)),
+  adjpoll_mcmullin=sum(is.na(polls_us_election_2016$adjpoll_mcmullin))
+)
+
+na_counts[order(na_counts, decreasing = TRUE)]
+
+head(na_counts[order(na_counts, decreasing = TRUE)], 8)
+
+new_data <- polls_us_election_2016
+
+#to understand how to use Lapply, which is described on page 58 of the Week 3 notes, I received support from an AI.[^1]
+
+
+
+
+new_data[] <- lapply(new_data, function(x) {
+  if (is.numeric(x)) {
+    ifelse(is.na(x), my_birth_year + k, x)
+  } else {
+    ifelse(is.na(x), paste0(my_first, "_", k), x)
+  }
+})
+
+if(k %% 2 == 0) {
+  head(new_data , k)
+} else {
+  tail(new_data , k)
+}
+
+sum(is.na(new_data))
+
+anyNA(new_data)
+
+
+
+
+
+```

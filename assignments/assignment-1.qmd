@@ -10,6 +10,40 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a)
+## (a) 
+
+***Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu &Erdi Daşdemir***
+
+Summary:
+
+In the video, our instructor talks about his work in the field of Operations Research. He explains that by using mathematical models, it is possible to improve the processes of large companies such as H&M and solve different operational problems. While emphasizing the importance of data analysis in decision making, he also highlights the importance of working in a systematic way. He mentions several important steps such as defining the problem correctly and maintaining regular process control.
+
+He also points out that customer relations and sales skills are important for engineers as well. According to him, even if you develop a good product, what really matters is being able to deliver it to the customer and successfully sell it. Overall, Baykal Hoca shared his long years of experience in a very engaging and motivating talk.
 
 ## (b)
+
+**Open-ended Question**
+
+According to the speaker in the video, what is the most important starting point of every data analytics and all kind of projects? ***(Approx. 35. minute)***
+
+**Answer**
+
+All projects starts with a clear problem definition.
+
+**Multiple-Choice Question**
+
+According to the presentation, which of the following is not recommended when finishing a data analytics project? ***(Approx. 52-53. minute)***
+
+A\) Comparing the results with BAU (Business as Usual)
+
+B\) Demonstrating KPI improvements achieved
+
+C\) Do not look at conflicting KPIs
+
+D\) Comparing scenarios and running what-if analyses
+
+**Answer**
+
+C\) Do not look at conflicting KPIs
+
+Why? Because sometimes improving one KPI can cause affect another KPI negatively, if we fix something, we also ruin another one it happens. So in that situation it is important to examine the conflicts. By analyzing these KPIs, an analysts can understand the trade offs in the system better and evaluate whether the proposed solution actually improves the overall performance.
